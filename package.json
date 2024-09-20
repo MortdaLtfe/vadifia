@@ -1,0 +1,30 @@
+{
+  "name": "vadifia",
+  "version": "1.0.0",
+  "description": "The Validation Library is a lightweight tool designed to help with data validation and sanitization in your JavaScript or TypeScript projects.",
+  "main": "dist/src/index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "module": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "node",
+    "validation"
+  ],
+  "author": "Mortdha Ltfe",
+  "license": "ISC",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.13",
+    "@types/node": "^10.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.2",
+    "uuid": "10.0.0"
+  }
+}
