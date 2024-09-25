@@ -4,6 +4,4 @@
  * "+48500100200"
  * "500100200"
  */
-export const PO_PHONE_NUMBER_PATTERN: RegExp = RegExp(
-  /^(\+48)?\s?\(?\d{3}\)?[\s\-]?\d{3}[\s\-]?\d{3}$/
-);
+export const PO_PHONE_NUMBER_PATTERN: RegExp = RegExp(/^(\+48)?\d{9}$/);
