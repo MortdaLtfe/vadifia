@@ -4,4 +4,4 @@
  * "+40701234567"
  * "0701234567"
  */
-export const RO_PHONE_NUMBER_PATTERN: RegExp = RegExp(/^(\+40|0)?[0-9]{9}$/);
+export const RO_PHONE_NUMBER_PATTERN: RegExp = RegExp(/^(\+40|0)?7[0-9]{8}$/);

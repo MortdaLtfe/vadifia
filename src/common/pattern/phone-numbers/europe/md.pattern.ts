@@ -1,7 +1,6 @@
 /**
  * A regular expression that matches valid phone numbers in Moldova.
  * @example
- * "+37360123456"
- * "60123456"
+ * "+37365678901"
  */
-export const MD_PHONE_NUMBER_PATTERN: RegExp = RegExp(/^(\+373)?\d{8}$/);
+export const MD_PHONE_NUMBER_PATTERN: RegExp = RegExp(/^(\+373)[67]?\d{7}$/);

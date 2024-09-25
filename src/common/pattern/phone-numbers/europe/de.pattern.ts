@@ -4,4 +4,4 @@
  * "+4917621234567"
  * "017621234567"
  */
-export const DE_PHONE_NUMBER_PATTERN: RegExp = RegExp(/^(\+49)\d{11}$/);
+export const DE_PHONE_NUMBER_PATTERN: RegExp = RegExp(/^(\+49)\d{10,11}$/);

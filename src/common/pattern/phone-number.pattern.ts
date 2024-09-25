@@ -182,7 +182,7 @@ export const phoneNumbers: Map<string, RegExp> = new Map([
 
   // Africa
   ["+961", LB_PHONE_NUMBER_PATTERN],
-  ["+40", EG_PHONE_NUMBER_PATTERN],
+  // ["+40", EG_PHONE_NUMBER_PATTERN],
 
   // Asia
   ["+964", IQ_PHONE_NUMBER_PATTERN],
