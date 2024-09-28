@@ -1,7 +1,7 @@
 /**
- * A regular expression that matches valid phone numbers in Estonia.
+ * A regular expression that matches valid phone numbers in Ethiopia.
  * @example
- * "+372950010020"
- * "950010020"
+ * "+251912345678"
+ * "912345678"
  */
-export const ET_PHONE_NUMBER_PATTERN: RegExp = RegExp(/^(\+372)?9\d{8}$/);
+export const ET_PHONE_NUMBER_PATTERN: RegExp = RegExp(/^(\+251)?9\d{8}$/);
